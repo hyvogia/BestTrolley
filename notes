@@ -1,0 +1,66 @@
+frontend/
+├── public/
+│
+├── src/
+│   ├── api/
+│   │   ├── axios.ts
+│   │   └── productApi.ts
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── LoadingSpinner.tsx
+│   │   │
+│   │   └── product/
+│   │       ├── ProductCard.tsx
+│   │       ├── ProductGrid.tsx
+│   │       └── ProductFilter.tsx
+│   │
+│   ├── hooks/
+│   │   └── useProducts.ts
+│   │
+│   ├── layouts/
+│   │   └── MainLayout.tsx
+│   │
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   ├── ProductPage.tsx
+│   │   ├── CartPage.tsx
+│   │   ├── LoginPage.tsx
+│   │   └── NotFoundPage.tsx
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.tsx
+│   │
+│   ├── services/
+│   │   └── productService.ts
+│   │
+│   ├── types/
+│   │   ├── Product.ts
+│   │   ├── Category.ts
+│   │   └── User.ts
+│   │
+│   ├── utils/
+│   │   └── formatCurrency.ts
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+│
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+
+1. api/axios.ts
+2. types/
+3. services/
+4. pages/
+5. components/
+6. routes/
+7. hooks/
